@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ledgerhq/node-pre-gyp-github.git"
+    "url": "git@github.com:LedgerHQ/node-pre-gyp-github.git"
   },
   "license": "MIT",
   "keywords": [

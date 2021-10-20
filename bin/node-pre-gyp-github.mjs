@@ -8,7 +8,7 @@ program
     "publishes the contents of .\\build\\stage\\{version} to the current version's GitHub release"
   )
   .option("-r, --release", "publish immediately, do not create draft")
-  .action(function (cmd, { release }) {
+  .action(function (_cmd, { release }) {
     const opts = {};
     opts.draft = !release;
     try {

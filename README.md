@@ -1,5 +1,7 @@
 # node-pre-gyp-github
-##### A node-pre-gyp module which provides the ability to publish to GitHub releases. (Forked from https://github.com/mathquis/node-pre-gyp-github)
+##### A node-pre-gyp module which provides the ability to publish to GitHub releases. 
+
+(Forked from https://github.com/mathquis/node-pre-gyp-github)
 
 ## Usage
 Instead of ```node-pre-gyp publish``` use **```node-pre-gyp-github publish```**
