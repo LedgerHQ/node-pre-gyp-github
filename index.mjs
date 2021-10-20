@@ -8,7 +8,7 @@ export async function publish({ draft } = {}) {
     console.log(message);
   }
 
-  const stageDir = path.resolve(process.cwd(), "./build/stage");
+  const stageDir = path.resolve(process.cwd(), "build", "stage");
 
   // Validate token
   const token = process.env["GH_TOKEN"];
@@ -18,7 +18,7 @@ export async function publish({ draft } = {}) {
 
   let metadata;
   try {
-    const packagePath = path.resolve(process.cwd(), "./package.json");
+    const packagePath = path.resolve(process.cwd(), "package.json");
     const content = await fs.promises.readFile(packagePath);
     metadata = JSON.parse(content);
   } catch (error) {
