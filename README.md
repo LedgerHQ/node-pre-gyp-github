@@ -46,10 +46,10 @@ SET GH_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 1. node-pre-gyp configure
 2. node-pre-gyp build
 3. node-pre-gyp package
-4. @ledgerhq/node-pre-gyp-github publish
+4. node-pre-gyp-github publish
 
 ## Example (Publish to GitHub as a Release)
 1. node-pre-gyp configure
 2. node-pre-gyp build
 3. node-pre-gyp package
-4. @ledgerhq/node-pre-gyp-github publish --release
+4. node-pre-gyp-github publish --release
