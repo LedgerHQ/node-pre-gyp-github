@@ -1,0 +1,45 @@
+{
+  "name": "@ledgerhq/node-pre-gyp-github",
+  "version": "1.0.0",
+  "description": "A node-pre-gyp module which provides the ability to publish to GitHub releases.",
+  "bin": {
+    "node-pre-gyp-github": "./bin/node-pre-gyp-github.mjs"
+  },
+  "main": "index.js",
+  "authors": [
+    {
+      "name": "Valentin De Almeida",
+      "url": "https://github.com/valpinkman"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ledgerhq/node-pre-gyp-github.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node-pre-gyp",
+    "binary",
+    "bindings",
+    "c++",
+    "c",
+    "native",
+    "addon",
+    "module",
+    "github",
+    "releases"
+  ],
+  "scripts": {
+    "lint": "eslint index.mjs bin/node-pre-gyp-github.mjs"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "commander": "^8.2.0",
+    "mime-types": "^2.1.33"
+  }
+}
